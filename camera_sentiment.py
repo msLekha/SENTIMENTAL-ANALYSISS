@@ -49,11 +49,11 @@ while True:
         face_size = w * h
 
         if face_size > 30000:
-            sentiment = "Positive 😊"
+            sentiment = "Positive"
         elif face_size > 18000:
-            sentiment = "Neutral 😐"
+            sentiment = "Neutral"
         else:
-            sentiment = "Negative 😔"
+            sentiment = "Negative"
 
         break
 
